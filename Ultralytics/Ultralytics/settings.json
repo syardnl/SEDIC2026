@@ -1,0 +1,20 @@
+{
+  "settings_version": "0.0.7",
+  "datasets_dir": "C:\\Users\\ACER\\Documents\\Hackathon\\SEDIC26\\datasets",
+  "weights_dir": "C:\\Users\\ACER\\Documents\\Hackathon\\SEDIC26\\Project\\weights",
+  "runs_dir": "C:\\Users\\ACER\\Documents\\Hackathon\\SEDIC26\\Project\\runs",
+  "uuid": "84819f1765575cc3070a89ea807447bffb0479d2ea45004964c480f92248cc81",
+  "sync": true,
+  "api_key": "",
+  "openai_api_key": "",
+  "clearml": true,
+  "comet": true,
+  "dvc": true,
+  "mlflow": true,
+  "neptune": true,
+  "raytune": true,
+  "tensorboard": false,
+  "wandb": false,
+  "vscode_msg": true,
+  "openvino_msg": true
+}
