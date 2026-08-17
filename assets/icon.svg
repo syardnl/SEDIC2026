@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <!-- Glowing Background Radar Circle -->
+  <circle cx="50" cy="50" r="45" fill="#070f1f" stroke="#00d4ff" stroke-width="2" opacity="0.8"/>
+  <circle cx="50" cy="50" r="32" fill="none" stroke="#0d3a5c" stroke-width="1.5" stroke-dasharray="3,3"/>
+  <circle cx="50" cy="50" r="18" fill="none" stroke="#0d3a5c" stroke-width="1.5"/>
+
+  <!-- Radar Crosshair -->
+  <line x1="50" y1="5" x2="50" y2="95" stroke="#0d3a5c" stroke-width="1"/>
+  <line x1="5" y1="50" x2="95" y2="50" stroke="#0d3a5c" stroke-width="1"/>
+
+  <!-- Water Waves -->
+  <path d="M 15 72 Q 25 67, 35 72 T 55 72 T 75 72 T 95 72" fill="none" stroke="#00d4ff" stroke-width="2" opacity="0.6"/>
+  <path d="M 5 79 Q 18 75, 30 79 T 55 79 T 80 79 T 95 79" fill="none" stroke="#0582ca" stroke-width="2" opacity="0.4"/>
+
+  <!-- Warship Silhouette -->
+  <!-- Hull -->
+  <path d="M 20 62 L 82 62 L 75 69 L 26 69 Z" fill="#00d4ff"/>
+  <!-- Superstructure / Cabin -->
+  <path d="M 32 62 L 35 50 L 52 50 L 58 62 Z" fill="#00d4ff"/>
+  <path d="M 44 50 L 46 42 L 54 42 L 56 50 Z" fill="#0284c7"/>
+  <!-- Radar Mast -->
+  <line x1="49" y1="42" x2="49" y2="30" stroke="#00d4ff" stroke-width="2"/>
+  <line x1="44" y1="34" x2="54" y2="34" stroke="#00d4ff" stroke-width="1.5"/>
+  <circle cx="49" cy="28" r="2.5" fill="#ff4444"/>
+
+  <!-- Target Lock Indicator -->
+  <path d="M 15 25 L 15 15 L 25 15" fill="none" stroke="#00d4ff" stroke-width="2"/>
+  <path d="M 85 25 L 85 15 L 75 15" fill="none" stroke="#00d4ff" stroke-width="2"/>
+  <path d="M 15 75 L 15 85 L 25 85" fill="none" stroke="#00d4ff" stroke-width="2"/>
+  <path d="M 85 75 L 85 85 L 75 85" fill="none" stroke="#00d4ff" stroke-width="2"/>
+</svg>
